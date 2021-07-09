@@ -1,0 +1,45 @@
+.header{
+    background-color :rgb(167, 245, 143);
+    display:flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:#000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;   
+    color: #dca8ec;     
+}
+
+body{
+    background-color: rgb(247, 188, 237);
+}
+
+.bodyImg{
+    background-color :rgb(225, 189, 255);
+    justify-content: space-evenly;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.types{
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px; 
+    width: 310px;
+    font-family: fantasy;
+}
